@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "jsreport extension for accessing reports with an access-token",
   "scripts": {
-    "test": "mocha test --timeout=5000",
-    "prepublish": "in-publish && jsreport-studio-build || not-in-publish"
+    "test": "mocha test --timeout=5000"
   },
   "homepage": "https://github.com/ssfbank/jsreport-public-reports",
   "repository": {
@@ -34,7 +33,6 @@
     "eslint": "5.5.0",
     "eslint-config-standard-jsx": "6.0.2",
     "eslint-plugin-babel": "5.2.0",
-    "in-publish": "2.0.0",
     "jsreport-authentication": "2.1.0",
     "jsreport-authorization": "2.0.0",
     "jsreport-core": "2.2.0",
