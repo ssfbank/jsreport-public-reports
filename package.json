@@ -1,0 +1,56 @@
+{
+  "name": "jsreport-public-reports",
+  "version": "1.0.0",
+  "description": "jsreport extension for accessing reports with an access-token",
+  "scripts": {
+    "test": "mocha test --timeout=5000",
+    "prepublish": "in-publish && jsreport-studio-build || not-in-publish"
+  },
+  "homepage": "https://github.com/ssfbank/jsreport-public-reports",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ssfbank/jsreport-public-reports.git"
+  },
+  "author": {
+    "name": "Asbjørn Lucassen"
+  },
+  "keywords": [
+    "jsreport"
+  ],
+  "standard": {
+    "ignore": [
+      "main.js"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+      "node": true,
+      "mocha": true,
+      "browser": true
+    }
+  },
+  "license": "LGPL",
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.5.0",
+    "eslint-config-standard-jsx": "6.0.2",
+    "eslint-plugin-babel": "5.2.0",
+    "in-publish": "2.0.0",
+    "jsreport-authentication": "2.1.0",
+    "jsreport-authorization": "2.0.0",
+    "jsreport-core": "2.2.0",
+    "jsreport-express": "2.2.2",
+    "jsreport-templates": "2.0.0",
+    "mocha": "5.2.0",
+    "should": "13.2.3",
+    "standard": "12.0.1",
+    "supertest": "3.2.0"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "jsreport.config.js"
+  ],
+  "engines": {
+    "node": ">=8.9"
+  }
+}
