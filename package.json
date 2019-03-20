@@ -1,6 +1,6 @@
 {
   "name": "jsreport-public-reports",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "jsreport extension for accessing reports with an access-token",
   "scripts": {
     "test": "mocha test --timeout=5000"
