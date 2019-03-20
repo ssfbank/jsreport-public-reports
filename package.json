@@ -1,6 +1,6 @@
 {
   "name": "jsreport-public-reports",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "jsreport extension for accessing reports with an access-token",
   "scripts": {
     "test": "mocha test --timeout=5000"
@@ -33,11 +33,11 @@
     "eslint": "5.5.0",
     "eslint-config-standard-jsx": "6.0.2",
     "eslint-plugin-babel": "5.2.0",
-    "jsreport-authentication": "2.1.0",
-    "jsreport-authorization": "2.0.0",
-    "jsreport-core": "2.2.0",
-    "jsreport-express": "2.2.2",
-    "jsreport-templates": "2.0.0",
+    "jsreport-authentication": "^2.2.2",
+    "jsreport-authorization": "^2.2.3",
+    "jsreport-core": "^2.4.3",
+    "jsreport-express": "^2.3.1",
+    "jsreport-templates": "^2.2.0",
     "mocha": "5.2.0",
     "should": "13.2.3",
     "standard": "12.0.1",
